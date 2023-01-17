@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1D62882C-B3D0-3DBA-2746-F949F9C3CCEE}") = "Whisker_s Plague", "Assembly-CSharp.csproj", "{785AE1E1-8074-559D-6DD6-A4FB7D4EC118}"
+EndProject
+Project("{1D62882C-B3D0-3DBA-2746-F949F9C3CCEE}") = "Whisker_s Plague", "Assembly-CSharp-Editor.csproj", "{CD496E55-9E1B-6135-F31A-4F91E669D5B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{785AE1E1-8074-559D-6DD6-A4FB7D4EC118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785AE1E1-8074-559D-6DD6-A4FB7D4EC118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785AE1E1-8074-559D-6DD6-A4FB7D4EC118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785AE1E1-8074-559D-6DD6-A4FB7D4EC118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD496E55-9E1B-6135-F31A-4F91E669D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD496E55-9E1B-6135-F31A-4F91E669D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD496E55-9E1B-6135-F31A-4F91E669D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD496E55-9E1B-6135-F31A-4F91E669D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

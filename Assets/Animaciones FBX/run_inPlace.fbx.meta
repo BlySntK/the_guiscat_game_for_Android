@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 7b55da06929e1294fa845d9c8ffd3ed4
+timeCreated: 1445621292
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: cat_high_v3_CatGeo
+    100002: Head
+    100004: Head_End 1
+    100006: Head_End_1
+    100008: Hips
+    100010: Jaw
+    100012: Jaw_Base
+    100014: L_Ear
+    100016: L_Ear 1
+    100018: L_Ear 2
+    100020: L_Ear 3
+    100022: L_Ear_1
+    100024: L_Ear_2
+    100026: L_Ear_3
+    100028: LeftArm
+    100030: LeftFingerBase
+    100032: LeftFoot
+    100034: LeftFootIndex1
+    100036: LeftForeArm
+    100038: LeftHand
+    100040: LeftHandIndex1
+    100042: LeftLeg
+    100044: LeftShoulder
+    100046: LeftToeBase
+    100048: LeftUpLeg
+    100050: Neck
+    100052: Neck1
+    100054: Neck2
+    100056: Neck3
+    100058: Neck4
+    100060: R_Ear
+    100062: R_Ear 1
+    100064: R_Ear 2
+    100066: R_Ear 3
+    100068: R_Ear_1
+    100070: R_Ear_2
+    100072: R_Ear_3
+    100074: RightArm
+    100076: RightFingerBase
+    100078: RightFoot
+    100080: RightFootIndex1
+    100082: RightForeArm
+    100084: RightHand
+    100086: RightHandIndex1
+    100088: RightLeg
+    100090: RightShoulder
+    100092: RightToeBase
+    100094: RightUpLeg
+    100096: //RootNode
+    100098: Spine
+    100100: Spine1
+    100102: Spine2
+    100104: Spine3
+    100106: Spine4
+    100108: Spine5
+    100110: Spine6
+    100112: Tail
+    100114: Tail1
+    100116: Tail2
+    100118: Tail3
+    100120: Tail4
+    100122: Tail5
+    100124: Tail6
+    400000: cat_high_v3_CatGeo
+    400002: Head
+    400004: Head_End 1
+    400006: Head_End_1
+    400008: Hips
+    400010: Jaw
+    400012: Jaw_Base
+    400014: L_Ear
+    400016: L_Ear 1
+    400018: L_Ear 2
+    400020: L_Ear 3
+    400022: L_Ear_1
+    400024: L_Ear_2
+    400026: L_Ear_3
+    400028: LeftArm
+    400030: LeftFingerBase
+    400032: LeftFoot
+    400034: LeftFootIndex1
+    400036: LeftForeArm
+    400038: LeftHand
+    400040: LeftHandIndex1
+    400042: LeftLeg
+    400044: LeftShoulder
+    400046: LeftToeBase
+    400048: LeftUpLeg
+    400050: Neck
+    400052: Neck1
+    400054: Neck2
+    400056: Neck3
+    400058: Neck4
+    400060: R_Ear
+    400062: R_Ear 1
+    400064: R_Ear 2
+    400066: R_Ear 3
+    400068: R_Ear_1
+    400070: R_Ear_2
+    400072: R_Ear_3
+    400074: RightArm
+    400076: RightFingerBase
+    400078: RightFoot
+    400080: RightFootIndex1
+    400082: RightForeArm
+    400084: RightHand
+    400086: RightHandIndex1
+    400088: RightLeg
+    400090: RightShoulder
+    400092: RightToeBase
+    400094: RightUpLeg
+    400096: //RootNode
+    400098: Spine
+    400100: Spine1
+    400102: Spine2
+    400104: Spine3
+    400106: Spine4
+    400108: Spine5
+    400110: Spine6
+    400112: Tail
+    400114: Tail1
+    400116: Tail2
+    400118: Tail3
+    400120: Tail4
+    400122: Tail5
+    400124: Tail6
+    4300000: cat_high_v3_CatGeo
+    7400000: Runing
+    9500000: //RootNode
+    13700000: cat_high_v3_CatGeo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Runing
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cat_high_v3_CatGeo
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftFootIndex1
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightFootIndex1
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Spine1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/LeftShoulder
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/Head_End
+          1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/Head_End_1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/Jaw_Base
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/Jaw_Base/Jaw
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear/L_Ear
+          1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear/L_Ear
+          1/L_Ear 2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear/L_Ear
+          1/L_Ear 2/L_Ear 3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear/L_Ear_1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear/L_Ear_1/L_Ear_2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/L_Ear/L_Ear_1/L_Ear_2/L_Ear_3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear/R_Ear
+          1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear/R_Ear
+          1/R_Ear 2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear/R_Ear
+          1/R_Ear 2/R_Ear 3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear/R_Ear_1
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear/R_Ear_1/R_Ear_2
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Neck/Neck1/Neck2/Neck3/Neck4/Head/R_Ear/R_Ear_1/R_Ear_2/R_Ear_3
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/RightShoulder
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 1
+      - path: Hips/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 1
+      - path: Hips/Tail
+        weight: 1
+      - path: Hips/Tail/Tail1
+        weight: 1
+      - path: Hips/Tail/Tail1/Tail2
+        weight: 1
+      - path: Hips/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Hips/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Hips/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Hips/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

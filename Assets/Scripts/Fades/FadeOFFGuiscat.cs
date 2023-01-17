@@ -1,0 +1,63 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class FadeOFFGuiscat : MonoBehaviour {
+	
+	public Texture2D pic;
+	public float speed = 0.3f;
+	int drawDepth = -1000;
+	public float alpha = 1;
+	float timeWait = 6;
+	int fadeDir = -1;
+	[HideInInspector]
+	public bool turn;
+	public bool continuar;
+
+
+
+	void Start () {
+
+		//Lo usamos para hacer parpadear el texto que surje
+		ParpadearTexto parpadea = FindObjectOfType<ParpadearTexto> ();
+		parpadea.InicializarParpadeo ();
+	}
+
+	void OnGUI () {
+
+		//Con esto logramos hacer un Fade In
+		if (!continuar && alpha > 0 && !turn) {
+				alpha += fadeDir * speed * Time.deltaTime;
+				alpha = Mathf.Clamp01 (alpha);
+
+				GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, alpha);
+				GUI.depth = drawDepth;
+				GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), pic);
+		}else if (!turn && continuar) turn = true;
+		else if (turn && continuar)
+			turn = false;
+
+		//Tiempo de espera hasta hacer Fade Out
+		if (timeWait > 0 && turn && continuar)
+			timeWait -= Time.deltaTime;
+
+		//Fade Out (Si esta comentado es que el script no esta disponible)
+		if (turn && timeWait <= 0 && continuar) {
+
+			FadeOutGuiscat fade = GetComponent<FadeOutGuiscat> ();
+			fade.Fade ();
+		}
+	}
+
+	public float StartFade (int direction) {
+
+		fadeDir = direction;
+		return fadeDir;
+	}
+
+	public void NuevaPartida () {
+
+		continuar = true;
+		MenuGuiscat menu = FindObjectOfType<MenuGuiscat> ();
+		menu.volvemos = false;
+	}
+}

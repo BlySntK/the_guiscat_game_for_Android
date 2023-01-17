@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Comedero\PiensoDentro.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Juego General\IU\Titulo\Login.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gatos\CatState.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Juego General\Miscelanea\Pausa.cs" Line="42" Column="15" />
+      <File FileName="Assets\Scripts\Juego General\GooglePlayServices\GPServices.cs" Line="59" Column="41" />
+      <File FileName="Assets\Scripts\Juego General\IU\VoltearDch.cs" Line="37" Column="64" />
+      <File FileName="Assets\Scripts\Caja Pienso\Llenado.cs" Line="12" Column="14" />
+      <File FileName="Assets\Scripts\Caja Pienso\Llenar.cs" Line="22" Column="70" />
+      <File FileName="Assets\Scripts\Comedero\PiensoDentro.cs" Line="71" Column="68" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

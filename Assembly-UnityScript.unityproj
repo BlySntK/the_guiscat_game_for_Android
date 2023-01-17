@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F8343B90-2A2E-999B-A70C-9BEB99CF2F67}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Temp/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Temp/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Kitten\Scripts\kittenEvents.js" />
+     <Compile Include="Assets\Kitten\Scripts\kittenIthcing.js" />
+     <Compile Include="Assets\Kitten\Scripts\kittenMeow.js" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Chromatical.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Crosshatch.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_HardLight.shader" />
+     <None Include="Assets\GooglePlayGames\Editor\Podfile.txt" />
+     <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
+     <None Include="Assets\Pixelation\Readme.txt" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_FishEye.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_EXTRA_SHOWFPS.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LighterColor.shader" />
+     <None Include="Assets\DESARROLLO RESTANTE\LEER.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Tunnel.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Desert.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Mirror.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_VividLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Hexagon_Black.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Focus.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Stripe.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_NightVision_4.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_superDot.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_EyesVision_2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Switching.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Sobel.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearBurn.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Golden.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Hue.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_SplitScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_EyesVision_1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Ansi.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Artefact.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Old_Movie_2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_BrokenGlass.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_SoftLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Divide.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_RGB.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Steam.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_SuperComputer.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga3.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_ARCADE.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Film_Grain.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Rainbow.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Noise.shader" />
+     <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_DarkColor.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Hypno.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Rgb.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Invert.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_PreFilters.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Multiply.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_PlanetMars.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_OilPaint.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Antialiasing_FXAA.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_PinLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_ZebraColor.shader" />
+     <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_ShockWave.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Flag.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_GaussianBlur.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga5.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Lens.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Exclusion.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Halftone.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Therma.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_ColorDodge.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Heat.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_VHS_Tracking.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_80.shader" />
+     <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_NeonGradient.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearDodge.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_BrightContrastSaturation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_Dot.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_BlackLine.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_BlurHole.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Special_Bubble.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_ColorBurn.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_VHS_Rewind.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Overlay.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_VHS.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision3.shader" />
+     <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Funk.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_DarkerColor.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Screens.shader" />
+     <None Include="Assets\Pixelation\Shaders\Chunky.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_NightVisionFX.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_SuperHexagon.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Regular.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Radial.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Drunk2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenVertical.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_OldFilm_Cutting1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Plasma.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_NewCellShading.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_BlueScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dream.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_GrayScale.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_OldFilm_Cutting2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch3.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Crystal.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Warp2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Film_ColorPerfection.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Warp.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision5.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Water_Drop.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Hexagon.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Alien_Vision.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Half_Sphere.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Edge_filter.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Water2.shader" />
+     <None Include="Assets\Pixelation\Shaders\Pixelation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Drunk.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenHorizontal.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_ElectricGradient.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_8bits.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Lighten.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenCircle.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Neon.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_ARCADE_2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Flush.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_DitherOffset.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Spot.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_FullColors.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Old.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Vintage.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Blood.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_BigFace.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_InverChromiLum.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_8bits_gb.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Sepia.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Subtract.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_NewPosterize.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Blurry.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Darken.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_FireGradient.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_ThermaVision.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenHV.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Tech.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Comics.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dissipation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Chromatical2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_EarthQuake.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Luminosity.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Distorted.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Plasma.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_HSV.shader" />
+     <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_ColorRGB.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Blend.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Psycho.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_50.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Dot_Circle.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Brightness.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Video3D.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Dithering2x2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_HUE_Rotate.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Radial_Fast.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_GreenScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_CellShading.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Hue.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Water.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixel_Pixelisation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Vcr.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_Color.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Contrast.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Noise.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_OilPaintHQ.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_WaterDrop.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Sigmoid.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Old_Movie.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Screen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Wave_Horizontal.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Ascii.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Videoflip.shader" />
+     <None Include="Assets\Textures\Cel-Shader.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Sharpen_Sharpen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Psycho.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Atmosphere_Snow_8bits.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Posterize.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Movie.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Saturation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Toon.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Bloom.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Noise.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_CellShading2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_LED.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga4.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dream2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Difference.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Color.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_EnhancedComics.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Threshold.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Tiles.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_HardMix.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_CompressionFX.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Chromatic_Aberration.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Laplacian.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_BlackHole.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Noise.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Grid.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Temp/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Temp/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
